@@ -13,7 +13,7 @@ public class StarsVertical {
 
         // Horizontal Stars
         System.out.println("Horizontal Stars");
-        for (int i = 0; i < numberOfStars; i++){
+        for (int i = 0; i < numberOfStars; i++) {
             System.out.println("*");
         }
         System.out.println();
