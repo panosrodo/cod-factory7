@@ -14,8 +14,8 @@ public class StarsOneToN {
         // Ascending
         System.out.println("Ascending Stars");
         for (int i = 1; i <= numberOfStars; i++) {
-            for (int j = 1; j <= i; i++) {
-                System.out.println("*");
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
             }
             System.out.println();
         }
