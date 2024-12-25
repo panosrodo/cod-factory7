@@ -12,6 +12,7 @@ public class StarsOneToN {
         numberOfStars = scanner.nextInt();
 
         // Ascending
+        System.out.println("Ascending Stars");
         for (int i = 1; i <= numberOfStars; i++) {
             for (int j = 1; j <= i; i++) {
                 System.out.println("*");
