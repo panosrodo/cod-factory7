@@ -20,5 +20,6 @@ public class StarsNxM {
             System.out.println();
         }
     }
+
 }
 
