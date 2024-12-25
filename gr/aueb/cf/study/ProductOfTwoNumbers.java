@@ -3,7 +3,6 @@ package gr.aueb.cf.study;
 import java.util.Scanner;
 
 public class ProductOfTwoNumbers {
-
     public static void main(String[] args) {
 
         // Create a Scanner object to read input from the user
@@ -23,7 +22,5 @@ public class ProductOfTwoNumbers {
 
         // Calculate the product of the two numbers and display the result
         System.out.println(fnumber + " x " + snumber + " = " + fnumber * snumber);
-
-
     }
 }

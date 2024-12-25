@@ -1,7 +1,6 @@
-package gr.aueb.cf.challenges;
+package gr.aueb.cf.challenges.ch2;
 
 public class DateApp {
-
     public static void main(String[] args) {
         int day = 5;
         int month = 12;

@@ -1,7 +1,6 @@
 package gr.aueb.cf.study;
 
 public class ArithmeticOperations {
-
     public static void main(String[] args) {
 
         // Calculate and print the result of the expression : -5 + 8 * 6

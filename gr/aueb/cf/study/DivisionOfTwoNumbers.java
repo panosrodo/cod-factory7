@@ -3,7 +3,6 @@ package gr.aueb.cf.study;
 import java.util.Scanner;
 
 public class DivisionOfTwoNumbers {
-
     public static void main(String[] args) {
 
         // Create a Scanner object to read input from the user
@@ -31,8 +30,5 @@ public class DivisionOfTwoNumbers {
 
         // Display the result of the division
         System.out.println("Div is  : " + div);
-
-
-
     }
 }

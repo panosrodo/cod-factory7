@@ -1,9 +1,8 @@
-package gr.aueb.cf.challenges;
+package gr.aueb.cf.challenges.ch4;
 
 import java.util.Scanner;
 
 public class StarsOneToN {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numberOfStars = 0;
@@ -20,5 +19,4 @@ public class StarsOneToN {
             System.out.println();
         }
     }
-
 }

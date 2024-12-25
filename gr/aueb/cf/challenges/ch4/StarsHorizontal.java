@@ -1,9 +1,8 @@
-package gr.aueb.cf.challenges;
+package gr.aueb.cf.challenges.ch4;
 
 import java.util.Scanner;
 
-public class StarsVertical {
-
+public class StarsHorizontal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numberOfStars = 0;
@@ -11,12 +10,11 @@ public class StarsVertical {
         System.out.println("Please insert the number of stars");
         numberOfStars = scanner.nextInt();
 
-        // Vertical Stars
-        System.out.println("Vertical Stars");
+        // Horizontal Stars
+        System.out.println("Horizontal Stars");
         for (int i = 1; i <= numberOfStars; i++) {
-            System.out.println("*");
+            System.out.print("*");
         }
         System.out.println();
     }
-
 }

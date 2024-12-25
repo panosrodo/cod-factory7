@@ -3,7 +3,6 @@ package gr.aueb.cf.study;
 import java.util.Scanner;
 
 public class BasicArithmeticsOperations {
-
     public static void main(String[] args) {
 
         // Create a Scanner object to read input from the user
@@ -41,7 +40,5 @@ public class BasicArithmeticsOperations {
 
         // Display the results of the calculations
         System.out.printf("Sum = %d\nMinus = %d\nMultiplay = %d\nSubstract = %d\nDivide = %d\nRemainderOf2Numbers = %d\n", sum, minus, multiply, substract, divide, rnums);
-
-
     }
 }
