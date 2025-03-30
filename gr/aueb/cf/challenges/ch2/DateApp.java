@@ -1,11 +1,27 @@
 package gr.aueb.cf.challenges.ch2;
 
-public class DateApp {
-    public static void main(String[] args) {
-        int day = 5;
-        int month = 12;
-        int year = 22;
+import java.util.Scanner;
 
-        System.out.printf("Η ημερομηνία είναι %02d/%02d/%d",  day, month, year);
+/**
+ * Διαβάζει τρεις ακέραιους αριθμούς που αναπαριστούν
+ * ημέρα, μήνα, έτος και εμφανίζει σε μορφή ΗΗ/ΜΜ/ΕΕ.
+ * Π.χ., αν δώσουμε 5 12 2022 θα εμφανίσει 05/12/22.
+ */
+public class DateApp {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int day = 0;
+        int month = 0;
+        int year = 0;
+        int formattedYear = 0;
+
+        System.out.println("Please insert three integers for day, month, year: ");
+        day = scanner.nextInt();
+        month = scanner.nextInt();
+        year = scanner.nextInt();
+        formattedYear = year % 100;
+
+        System.out.printf("%02d/%02d/%2d\n", day, month, formattedYear);
     }
 }
