@@ -21,4 +21,3 @@ public class IsEvenApp {
         System.out.printf("%d is even: %b: ", num, isEven);
     }
 }
-
