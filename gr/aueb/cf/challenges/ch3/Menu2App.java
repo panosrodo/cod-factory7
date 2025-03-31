@@ -3,6 +3,7 @@ package gr.aueb.cf.challenges.ch3;
 import java.util.Scanner;
 
 public class Menu2App {
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int choice = 0;
