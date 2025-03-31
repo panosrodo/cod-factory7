@@ -7,6 +7,7 @@ import java.util.Scanner;
  * μέχρι ο χρήστης να δώσει τον αριθμό 5 (Έξοδος).
  */
 public class MenuApp {
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int choice = 0;
