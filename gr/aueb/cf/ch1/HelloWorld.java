@@ -4,7 +4,7 @@ package gr.aueb.cf.ch1;
  * Prints Hello Coding Factory in
  * standard output (console).
  *
- * @author a8ana
+ * @author panosrodo
  */
 public class HelloWorld {
 
