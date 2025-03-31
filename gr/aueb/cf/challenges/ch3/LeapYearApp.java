@@ -2,7 +2,12 @@ package gr.aueb.cf.challenges.ch3;
 
 import java.util.Scanner;
 
-public class LeapYear {
+/** Ελέγχει αν ένα έτος είναι δίσεκτο.
+ * Δίσεκτο είναι ένα έτος αν διαιρείται με το 4
+ * και είτε δε διαιρείται με το 100 ή διαιρείται με το 100 και το 400.
+ */
+public class LeapYearApp {
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int year = 0;
