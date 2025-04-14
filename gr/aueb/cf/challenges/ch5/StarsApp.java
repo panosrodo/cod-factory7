@@ -16,12 +16,12 @@ public class StarsApp {
             printMenu();
             choice = in.nextInt();
             if (choice < 1 || choice > 6) {
-                System.out.println("\nΛάθος επιλογή");
+                System.out.println("Λάθος επιλογή");
                 continue;
             }
 
             if (choice != 6 ) {
-                System.out.println("\nΔώστε αριθμό stars");
+                System.out.println("Δώστε αριθμό stars");
                 numberOfStars = in.nextInt();
             }
 
@@ -52,8 +52,8 @@ public class StarsApp {
     }
 
     public static void printMenu() {
-        System.out.println("\nΕπιλέξτε ένα από τα παρακάτω: ");
-        System.out.println("\n1. Οριζόντια Αστεράκια");
+        System.out.println("Επιλέξτε ένα από τα παρακάτω:");
+        System.out.println("1. Οριζόντια Αστεράκια");
         System.out.println("2. Κάθετα Αστεράκια");
         System.out.println("3. nxm Αστεράκια");
         System.out.println("4. Ascending Αστεράκια");
